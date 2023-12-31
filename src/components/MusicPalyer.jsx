@@ -62,7 +62,7 @@ function MusicPalyer({song,imgSrc}) {
    }
    
    const changeCurrentTime = () =>{
-    progressBar.current.style.setProperty("( --player-played)",`${(progressBar.current.value / duration)*100}%`);
+    progressBar.current.style.setProperty("--player-played",`${(progressBar.current.value / duration)*100}%`);
     setCurrentTime(progressBar.current.value)
    }
 
