@@ -1,0 +1,324 @@
+
+
+.leftMenu{
+    width: 280px;
+    height: fit-content;
+    min-height: 100vh;
+    background-color: rgba(34, 34, 34, 0.6);
+    backdrop-filter: blur(10px);
+    padding: 20px 15px;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(.77,0,.53,.97);
+}
+
+.leftMenu .logoContainer{
+    color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftMenu .logoContainer .logo{
+    width: 80px;
+    margin: -40px -40px -40px -20px ;
+}
+
+.leftMenu .logoContainer .option{
+    font-size: 20px !important;
+}
+
+.leftMenu .logoContainer h2{
+    font-size: 20px;
+   
+}
+
+/* .searchContainer{
+    width: 100%;
+    height: 45px;
+    position: relative;
+    margin-top: 20px;
+    color: #848484;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.searchContainer input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 45px;
+    color: #f1f1f1;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.searchContainer .inputIcon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #848484;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+
+} */
+
+.menuContainer{
+    margin: 15px 0;
+   
+    
+}
+
+.menuContainer p{
+    color: #848484;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.menuContainer ul{
+    width: 100%;
+    padding: 0;
+}
+
+.menuContainer ul li{
+    list-style: none;
+    margin: 5px 0;
+    width: 100%;
+    padding: 5px 0;
+    position: relative;
+}
+
+.menuContainer ul li a{
+    text-decoration: none;
+    color: #848484;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.menuContainer ul li a i{
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.menuContainer ul li::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    height: 100%;
+    width: 0px;
+    background-color: #ff0a54;
+    border-radius: 5px;
+    left: -15px;
+    overflow:visible !important;
+}
+
+.menuContainer ul li:hover::before,
+.menuContainer ul li.active::before{
+    width: 5px;
+    transition: 0.3s;
+    overflow:visible !important;
+}
+
+.menuContainer ul li:hover a,
+.menuContainer ul li.active a{
+    color: #f1f1f1;
+    transition: 0.3s;
+}
+
+.PalyListcontainer{
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+.PalyListcontainer .nameContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #848484;
+    margin-bottom: 10px;
+}
+
+.PalyListcontainer .nameContainer p{
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.PalyListcontainer .nameContainer  i{
+    cursor: pointer;
+    color: #f1f1f1;
+}
+
+.PalyListcontainer .palyListScroll{
+    height: 140px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+
+}
+
+
+.PalyListcontainer .palyListScroll .playList{
+    display: flex;
+    color: #848484;
+    align-items: center;
+}
+.PalyListcontainer .palyListScroll .playList:hover{
+    color: #f1f1f1;
+    transition: 0.3s;
+}
+
+.PalyListcontainer .palyListScroll .playList i{
+    font-size: 18px;
+}
+
+.PalyListcontainer .palyListScroll .playList .list{
+    margin-right: 15px;
+}
+
+.PalyListcontainer .palyListScroll .playList  .trash{
+    margin-left: auto;
+}
+
+.PalyListcontainer .palyListScroll .playList p{
+    font-size: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline;
+}
+
+.trackList {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+}
+
+.trackList .top{
+    display: flex;
+    align-items: center;
+}
+
+.trackList .top .trackName{ 
+    margin-left: 15px;
+    color: #f1f1f1;
+    font-size: 14px;
+}
+
+.trackList .top .trackName .trackSpan{
+    display: block;
+    font-size: 12px;
+    color: #848484;
+}
+.trackList .top img{
+    width: 50px !important;
+}
+
+.trackList .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: #848484;
+}
+
+.trackList .bottom i{
+    font-size: 18px;
+}
+
+.trackList .bottom i:hover{
+    color: #f1f1f1;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.trackList .bottom input{
+    position: relative;
+    height: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.trackList .bottom input::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background-color: #ff0a54;
+    width: 50%;
+    height: 100%;
+    border-radius:10px;
+    z-index: 2;
+    transition: width 250ms linear;
+}
+
+.trackList .bottom input::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 10px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    border:2px solid #000;
+    cursor: pointer;
+    position: relative;
+    margin:-2px 0 0 0 ;
+    z-index: 3;
+    box-sizing: border-box;
+    transition: all 250ms linear;
+}
+
+.trackList .bottom input::-moz-progress-bar{
+    background-color: #ff0a54;
+    width: 50%;
+    height: 100%;
+    border-radius:10px;
+    z-index: 2;
+    transition: width 250ms linear;
+}
+
+.trackList .bottom input::-moz-range-thumb{
+    background-color: #ff0a54;
+    width: 50%;
+    height: 100%;
+    border-radius:10px;
+    z-index: 2;
+    transition: width 250ms linear;
+}
+
+@media  screen and (max-width : 550px){
+    .leftMenu{
+        width: 64px;
+        min-width: 64px;
+    }
+    .leftMenu .searchContainer{
+        display: none;
+    }
+    .leftMenu .trackList{
+        display: none;
+    }
+    .leftMenu .PalyListcontainer{
+        display: none;
+    }
+    .leftMenu .menuContainer ul li a span{
+        display: none;
+    }
+    .leftMenu .menuContainer ul li a i{
+        font-size: 26px;
+    }
+    .leftMenu .menuContainer ul li {
+        margin: 25px 0;
+    }
+    .leftMenu .logoContainer .logo{
+        width: 70px;
+    }
+    .leftMenu .logoContainer h2{
+        margin-left: 40px;
+    }
+}
