@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Music-Webapp-KRISHZZZ/static/css/main.b8a88849.css",
-    "main.js": "/Music-Webapp-KRISHZZZ/static/js/main.1a5c882b.js",
+    "main.js": "/Music-Webapp-KRISHZZZ/static/js/main.2bc20f84.js",
     "static/js/787.e762ba84.chunk.js": "/Music-Webapp-KRISHZZZ/static/js/787.e762ba84.chunk.js",
     "static/media/pexels-elviss-railijs-bitāns-1389429.jpg": "/Music-Webapp-KRISHZZZ/static/media/pexels-elviss-railijs-bitāns-1389429.d27ea82898aa609ef145.jpg",
     "static/media/pexels-sebastian-ervi-1763075.jpg": "/Music-Webapp-KRISHZZZ/static/media/pexels-sebastian-ervi-1763075.6ee592d83e5422453c9a.jpg",
@@ -10,11 +10,11 @@
     "static/media/studio-removebg-preview.png": "/Music-Webapp-KRISHZZZ/static/media/studio-removebg-preview.31476f18d57e472bb26a.png",
     "index.html": "/Music-Webapp-KRISHZZZ/index.html",
     "main.b8a88849.css.map": "/Music-Webapp-KRISHZZZ/static/css/main.b8a88849.css.map",
-    "main.1a5c882b.js.map": "/Music-Webapp-KRISHZZZ/static/js/main.1a5c882b.js.map",
+    "main.2bc20f84.js.map": "/Music-Webapp-KRISHZZZ/static/js/main.2bc20f84.js.map",
     "787.e762ba84.chunk.js.map": "/Music-Webapp-KRISHZZZ/static/js/787.e762ba84.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8a88849.css",
-    "static/js/main.1a5c882b.js"
+    "static/js/main.2bc20f84.js"
   ]
 }
